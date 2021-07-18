@@ -12,5 +12,13 @@ public class Variable01 {
 
     int num2 = 30;　// int 型の変数num2を宣言と同時に初期化
     System.out.println(num2);
+
+    //定数の宣言（final装飾子）
+    final int MIN_NUMBER = 10;
+    System.out.println(MIN_NUMBER);
+
+    //再代入しようとするとエラー
+    //MIN_NUMBER = 20;
+
   }
 }
